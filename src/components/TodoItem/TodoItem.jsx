@@ -18,7 +18,7 @@ export const TodoItem = ({ todo }) => {
   };
 
   const handleDelete = () => {
-    setTimeout(() => dispatch(deleteTodo(todo.id)), 500);
+    setTimeout(() => dispatch(deleteTodo(todo.id)), 250);
   };
 
   const handleToggle = () => {
