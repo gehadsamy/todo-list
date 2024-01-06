@@ -21,7 +21,7 @@ export const TodoForm = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="max-w-lg p-6 mx-auto mt-10 bg-white rounded-lg shadow-lg form-container"
+      className="w-full max-w-2xl p-6 mx-auto mt-10 bg-white rounded-lg shadow-lg form-container"
     >
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3">
         <div className="flex items-center gap-2">
